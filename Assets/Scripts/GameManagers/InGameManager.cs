@@ -15,7 +15,7 @@ using Photon.Pun;
 using Photon.Realtime;
 using System.IO;
 using System.Linq;
-using Controllers;
+using Anticheat;
 
 namespace GameManagers
 {
@@ -307,6 +307,8 @@ namespace GameManagers
             }
             if (CustomLogicManager.Evaluator != null)
                 CustomLogicManager.Evaluator.OnPlayerLeave(player);
+
+            AnticheatManager.ResetVoteKicks(player);
         }
 
         public override void OnMasterClientSwitched(Player newMasterClient)
