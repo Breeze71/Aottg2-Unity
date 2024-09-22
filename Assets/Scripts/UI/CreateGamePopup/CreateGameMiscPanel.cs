@@ -39,6 +39,7 @@ namespace UI
             ElementFactory.CreateToggleSetting(DoublePanelRight, style, settings.AllowPlayerTitans, UIManager.GetLocale(cat, sub, "AllowPlayerTitans"));
             ElementFactory.CreateToggleSetting(DoublePanelRight, style, settings.AllowShifters, UIManager.GetLocale(cat, sub, "AllowShifters"));
             ElementFactory.CreateToggleSetting(DoublePanelRight, style, settings.AllowShifterSpecials, UIManager.GetLocale(cat, sub, "AllowShifterSpecials"));
+            ElementFactory.CreateToggleSetting(DoublePanelRight, style, settings.AllowVoteKicking, UIManager.GetLocale(cat, sub, "AllowVoteKicking"));
             ElementFactory.CreateToggleSetting(DoublePanelRight, style, settings.ClearKDROnRestart, UIManager.GetLocale(cat, sub, "ClearKDROnRestart"));
             ElementFactory.CreateToggleSetting(DoublePanelRight, style, settings.GlobalMinimapDisable, UIManager.GetLocale(cat, sub, "GlobalMinimapDisable"));
             ElementFactory.CreateToggleSetting(DoublePanelRight, style, settings.GunsAirReload, UIManager.GetLocale(cat, sub, "GunsAirReload"));
